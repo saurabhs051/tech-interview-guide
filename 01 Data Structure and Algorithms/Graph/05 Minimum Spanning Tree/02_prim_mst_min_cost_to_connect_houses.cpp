@@ -1,5 +1,7 @@
 class Solution {
 /* 
+* Given a 2D array houses[][] consisting of n 2D coordinates {x, y} where each coordinate represents the location of each house, the task is to find the minimum cost to connect all the houses of the city.
+* Note: Cost of connecting two houses is the Manhattan Distance between the two points (xi, yi) and (xj, yj) i.e., |xi - xj| + |yi - yj|, where |p| denotes the absolute value of p.
  * 1. Min cost to connect all the houses (MST) : n-1 edges
  * 2. Prim's like Dijkstra : BFS + MinHeap (Greedy)
  *      2.1 Unlike Dijksta, But we only consider edge weight, not {node cost + edge weight}
